@@ -112,7 +112,7 @@ public class Lightning
 		l.setY(l.getY() + Math.random() * (0.1 - -0.1));
 		l.setZ(l.getZ() + Math.random() * (0.1 - -0.1));
 
-		ParticleEffect.RED_DUST.display((float) 0, (float) 255, (float) 255, 0.1F, 0, l, 256D);
+		ParticleEffect.CRIT_MAGIC.display((float) 0, (float) 255, (float) 255, 0.1F, 0, l, 256D);
 	}
 
 	private void progress()
